@@ -1,6 +1,7 @@
 
 body{
 	font-family: Poppins;
+	overflow-x: hidden;
 }
 .header{
 	position: fixed;
@@ -8,11 +9,10 @@ body{
 	right: 0;
 	left: 0;
 	height: 82px;
+	background:linear-gradient(180deg, #2769B1 0%, #09498F 100%);
 	z-index: 100;
-	
-}
-.container{
-	max-width: 1200px;
+	width: 100%;
+
 }
 .row.head{
 	align-items: center;
@@ -92,8 +92,7 @@ padding-right: 160px;
 	mix-blend-mode: screen;
 }
 .row.planes{
-	height: 140px;
-	padding: 100px 0;
+	z-index: 10;
 }
 .blck{
     border-top: 1px solid white;
@@ -103,6 +102,7 @@ padding-right: 160px;
 	transition: .3s;
 	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);;
 	opacity: 1;
+	z-index: 999;
 }
 .block-1{
 display: flex;
