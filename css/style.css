@@ -1,3 +1,56 @@
+
 body{
+	font-family: Poppins;
+}
+.header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 80px;
 	background: red;
+	z-index: 100;
+}
+
+.hero{
+	background:linear-gradient(180deg, #2769B1 0%, #09498F 100%);
+	color: white;
+	overflow-x: hidden;
+}
+.hero .container{
+	min-height: 100vh;
+	padding-top: 82px;
+}
+.hero__title{
+font-size: 64px;
+line-height: 1;
+color: #FFFFFF;
+
+}
+.hero__title span{
+font-size: 42px;
+}
+.hero__title strong{
+	margin-left: 20px;
+}
+.hero__subtitle{
+font-size: 20px;
+line-height: 1.2;
+padding-right: 160px;
+}
+.hero__plane-holder{
+	position: relative;
+}
+.hero__plane-holder img{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-top: 80px;
+}
+.hero__plane-holder img.cloud{
+	mix-blend-mode: screen;
+}
+.row.planes{
+	height: 220px;
+	background: orange;
 }
