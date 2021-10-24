@@ -139,7 +139,7 @@ padding: 20px 0;
 
 
 .layout-3{
-	background: linear-gradient(to right, #09488F 50%, #4499d9 50%,#4499d9 100%,rgba(63, 63, 62, 0) 100%);
+	background: linear-gradient(to right, #09488F 100%, rgba(63, 63, 62, 0) 100%);
 	width: 100%;
 }
 .block-first{
