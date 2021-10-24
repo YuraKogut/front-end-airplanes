@@ -296,7 +296,11 @@ font-weight: 500;
 font-size: 16px;
 color: #FFFFFF;
 }
-
+.menu-3 li a:hover{
+	border-bottom: 2px solid;
+	padding: 5px 0;
+	transition: 0.3s;
+}
 .menu-4 ul{
 list-style: none;
 line-height: 2;
