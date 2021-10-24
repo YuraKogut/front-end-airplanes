@@ -37,7 +37,7 @@ header a{
 }
 li a:hover{
 	color: white;
-	font-weight: bold;
+	-webkit-text-stroke-width: medium;
 	border-bottom: 1px solid white;
 	padding-bottom: 10px;
 	transition: 0.4s;
