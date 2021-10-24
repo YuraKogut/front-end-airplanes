@@ -78,29 +78,18 @@ font-size: 20px;
 line-height: 1.2;
 padding-right: 160px;
 }
-.hero__plane-holder{
-	position: relative;
 
-}
-.hero__plane-holder img{
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	margin-top: 80px;
-}
-.hero__plane-holder img.cloud{
-	mix-blend-mode: screen;
-}
 .row.planes{
 	z-index: 10;
 }
 .blck{
     border-top: 1px solid white;
     width:86%;
+    height: 155px;
 }
 .blck:hover{
 	transition: .3s;
-	background: linear-gradient(180deg, #2769B1 0%, #09498F 100%);;
+	background: linear-gradient(180deg, #2769B1 100%, #09498F 0%);
 	opacity: 1;
 	z-index: 999;
 }
@@ -243,6 +232,9 @@ li.choose.active a{
     border-radius: 50%;
     left: -16px;
     bottom: 23px;
+}
+.block-img img{
+	padding: 77px 0;
 }
 .btn_services button {
 	background: linear-gradient( 
