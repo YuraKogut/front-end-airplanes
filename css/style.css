@@ -55,7 +55,6 @@ header li a:hover{
 .hero{
 	background:linear-gradient(180deg, #2769B1 0%, #09498F 100%);
 	color: white;
-	overflow-x: hidden;
 }
 .hero .container{
 	min-height: 100vh;
@@ -255,7 +254,9 @@ li.choose.active a{
 	font-size: 18px;
 	font-weight: 600;
 }
-
+.upgrade{
+	display: flex;
+}
 .layout-5{
 	padding: 70px 0;
 }
@@ -268,7 +269,6 @@ color: #09498F;
 }
 
  .layout-6 img{
-	height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -277,7 +277,6 @@ color: #09498F;
 
 
 .layout-7{
-	height: 250px;
 	background: #09498F;
 }
 .footer{
@@ -319,12 +318,15 @@ color: #FFFFFF;
     justify-content: end;
 }
 .hum{
-	padding: 10px;
     display: flex;
+    justify-content: end;
+    padding: 27px 0;
+
 }
 .header-humb{
 	border: none;
-    background: none;
+    background: none; position: fixed;
+    z-index: 1000;
 }
 button.header-humb div{
 	width: 32px;
@@ -338,8 +340,9 @@ button.header-humb div{
 			position: fixed;
 			display: flex;
 			flex-direction: column;
-			background: #09498F;
-			height: 30vh;
+			text-align: center;
+			background: linear-gradient(180deg, #2163ab 80%, #2163ab 41%);
+			height: 24vh;
 			right: 0;
 			left: 0;
 			top: 0;
@@ -351,5 +354,59 @@ button.header-humb div{
 			transform: translateX(0%);
 			transition: 0.6s;
 		}
+		.hero__subtitle{
+		padding-right: 0;
+	}
+	img.bang{
+		height: 64vh!important;
+	}
+	.menu-1 ul li{
+		margin-right: 58px!important;
+	}
+	.block-img{
+		padding: 20px 0;
+	}
+	.block-img img{
+		width: 100%;
+	}
+	.menu-2 li{
+		font-size: 17px!important;
+	}
+	.icons__partners{
+		display: block!important;
+	}
+	.footer{
+		display: block!important;
+	}
+	.menu-3 ul{
+		padding: 20px!important;
+	}
+		.menu-4 ul{
+		padding: 20px!important;
+	}
 
+}
+
+@media(max-width: 1182px){
+	.upgrade{
+		display: block!important;
+	}
+	
+}
+
+@media(max-width: 755px){
+	.hero__subtitle{
+		padding-right: 0;
+	}
+	img.bang{
+		height: 85vh!important;
+	}
+}
+@media(max-width: 545px){
+	.hero__subtitle{
+		padding-right: 0;
+	}
+	.mark_pos{
+		display: block!important;
+	}
 }
