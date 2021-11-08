@@ -375,15 +375,7 @@ button.header-humb div{
 	.icons__partners{
 		display: block!important;
 	}
-	.footer{
-		display: block!important;
-	}
-	.menu-3 ul{
-		padding: 20px!important;
-	}
-	.menu-4 ul{
-		padding: 20px!important;
-	}
+	
 
 }
 
@@ -401,6 +393,15 @@ button.header-humb div{
 	img.bang{
 		height: 85vh!important;
 	}
+	.footer{
+		display: block!important;
+	}
+	.menu-3 ul{
+		padding: 20px!important;
+	}
+	.menu-4 ul{
+		padding: 20px!important;
+	}
 }
 @media(max-width: 545px){
 	.hero__subtitle{
@@ -408,5 +409,14 @@ button.header-humb div{
 	}
 	.mark_pos{
 		display: block!important;
+	}
+		.footer{
+		display: block!important;
+	}
+	.menu-3 ul{
+		padding: 20px!important;
+	}
+	.menu-4 ul{
+		padding: 20px!important;
 	}
 }
